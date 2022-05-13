@@ -1,0 +1,184 @@
+body {
+    font-family: "Montserrat";
+}
+
+h1,h2,h3 {
+    font-family: "Montserrat-Bold";
+}
+
+p{
+    color: #8f8f8f;
+}
+
+#title {
+    background-color: #f0776e;
+    color: white;
+    padding: 2% 10%;
+}
+
+div.container-fluid {
+    padding: 1.5% 12% 7%;
+}
+
+/* Heading */
+
+.big-heading{
+    font-size: 2.5rem;
+    line-height: 1;
+}
+
+.section-heading{
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+.features-title{
+    font-size: 1.5rem;
+}
+
+
+/* Navigation Bar */
+
+nav.navbar {
+    padding: 0 0 5rem;
+}
+
+a.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+}
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+
+.title-img{
+    width: 55%;
+    transform: rotate(20deg);
+    left: 25%;
+    top: -25%;
+    position: absolute;
+}
+
+/* Features Section */
+
+#features{
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.features-box{
+    text-align: center;
+    padding: 5%;
+}
+
+.icon{
+    color: #f0776e;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #e00f00;
+}
+
+
+/* Testimonials-Section */
+
+#testimonials{
+    text-align: center;
+    background-color: #f0776e;
+    color: white;
+}
+
+#testimonial-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.testimonial-text{
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+#press{
+    background-color: #f0776e;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing{
+    padding: 70px;
+    text-align: center;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+.price-text{
+    font-size: 2.5rem;
+    line-height: 1;
+}
+
+@media (max-width:1028px){
+
+    #title{
+        text-align: center;
+    }
+
+    .title-img{
+        position: static;
+        transform: rotate(0deg);
+    }
+}
+
+/* <!-- Call to Action --> */
+
+#cta{
+    text-align: center;
+    background-color: #f0776e;
+    color: white;
+    padding: 0.5%;
+}
+
+/* <!-- Footer --> */
+
+#footer{
+    text-align: center;
+    background-color: #f0776e;
+    color: white;
+    padding: 0.5%;
+}
+
+#pcopy{
+    color: white;
+}
+
+.soical-icon{
+    margin: 20px 10px;
+}
+
+
+
+
+
